@@ -1,3 +1,4 @@
 # How to start
 - Open terminal
-- Run "Yarn install" or "npm install"
+- Run "yarn install" or "npm install"
+- Run "yarn start" or "npm start"
