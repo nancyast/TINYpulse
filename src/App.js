@@ -30,12 +30,14 @@ export default function App() {
 
   const renderedResult = useMemo(() => {
     return search.result.map(title => (
-      <Highlighter
-      key={title}
-      searchWords={[search.queryString]}
-      autoEscape={true}
-      textToHighlight={title}
-      />
+      <div>
+        <Highlighter
+          key={title}
+          searchWords={[search.queryString]}
+          autoEscape={true}
+          textToHighlight={title}
+        />
+      </div>
     ))
   }, [search]);
 
